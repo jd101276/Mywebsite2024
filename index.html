@@ -1,147 +1,178 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All About Poverty and How to Help Stop It</title>
   <style>
-     body{
-         text-align: center;
-         background-image: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 0));
-         min-width: 100%;
-         min-height: 100%;
-      }
+    body {
+      text-align: center;
+      background-image: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 0));
+      min-width: 100%;
+      min-height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar Style */
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: yellow;
+    }
+
+    /* Content Styling */
+    h1, h2 {
+      margin-top: 20px;
+    }
+
+    img {
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    section {
+      margin: 30px 0;
+    }
+
+    iframe {
+      margin-top: 20px;
+    }
+
+    /* Scroll to top button styling */
+    #scrollTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      display: none; /* Hidden by default */
+    }
+
+    #scrollTopBtn:hover {
+      background-color: yellow;
+      color: #333;
+    }
   </style>
 </head>
 
 <body>
-<h1>All about poverty and how to help stop it </h1>
-<img src="https://www.habitatforhumanity.org.uk/wp-content/uploads/2018/08/relative-poverty-cover.jpg" width= "400px">
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#what-is-poverty">What is Poverty?</a>
+    <a href="#types-of-poverty">Types of Poverty</a>
+    <a href="#causes-of-poverty">Causes of Poverty</a>
+    <a href="#video">Video About Poverty</a>
+  </nav>
+
+  <h1>All About Poverty and How to Help Stop It</h1>
+  <img src="https://www.habitatforhumanity.org.uk/wp-content/uploads/2018/08/relative-poverty-cover.jpg" width="400px" alt="Poverty Image">
+
+  <section id="what-is-poverty">
+    <h2>What is Poverty?</h2>
+    <p>Poverty means that a person doesn't make enough money from their job to meet their basic needs.</p>
+  </section>
+
+  <section id="types-of-poverty">
+    <h2>Different Types of Poverty</h2>
+
+    <p>There are six types of poverty, including absolute poverty, relative poverty, situational poverty, generational poverty, urban poverty, and rural poverty.</p>
+
+    <h3>1. Absolute Poverty</h3>
+    <p><strong>Definition:</strong> Absolute poverty refers to a condition where individuals or households cannot meet basic life-sustaining needs such as food, clean water, shelter, and healthcare. It is typically measured using a poverty line, often set by international organizations like the World Bank (e.g., $1.90 a day).</p>
+    <p><strong>Characteristics:</strong> Individuals living in absolute poverty experience severe deprivation of essential resources and struggle to survive.</p>
+
+    <h3>2. Relative Poverty</h3>
+    <p><strong>Definition:</strong> Relative poverty refers to individuals or households whose income or resources are so much lower than the average that they are excluded from the minimum acceptable standard of living in society. It is measured in relation to others in the same society, rather than a fixed threshold.</p>
+    <p><strong>Characteristics:</strong> People in relative poverty may have their basic needs met but still experience social exclusion and inequality compared to others in their community.</p>
+
+    <h3>3. Situational Poverty</h3>
+    <p><strong>Definition:</strong> Situational poverty occurs when an individual or group experiences poverty due to specific circumstances, such as a natural disaster, sudden job loss, illness, or other temporary crises.</p>
+    <p><strong>Characteristics:</strong> This type of poverty is often short-term, and people can escape it once the situation improves.</p>
+
+    <h3>4. Chronic Poverty</h3>
+    <p><strong>Definition:</strong> Chronic poverty refers to a long-term or persistent state of poverty, often passed down through generations. Individuals in chronic poverty typically face multiple and ongoing barriers to overcoming their circumstances.</p>
+    <p><strong>Characteristics:</strong> Chronic poverty is often linked to systemic issues like limited access to education, healthcare, or stable employment opportunities.</p>
+
+    <h3>5. Urban Poverty</h3>
+    <p><strong>Definition:</strong> Urban poverty occurs in city or metropolitan areas, where despite the availability of more infrastructure, a significant portion of the population lives in poverty, often in informal settlements or slums.</p>
+    <p><strong>Characteristics:</strong> Urban poverty is marked by overcrowding, inadequate housing, lack of sanitation, and limited access to public services despite the proximity to wealthier urban areas.</p>
+
+    <h3>6. Rural Poverty</h3>
+    <p><strong>Definition:</strong> Rural poverty refers to poverty in rural or agricultural areas, where people often rely on farming or informal work. These areas tend to have fewer economic opportunities and limited access to services.</p>
+    <p><strong>Characteristics:</strong> Rural poverty is typically marked by inadequate infrastructure, low agricultural productivity, isolation from markets, and poor access to healthcare and education.</p>
+  </section>
+
+  <section id="causes-of-poverty">
+    <h2>Causes of Poverty</h2>
+    <p>The causes of poverty are complex and multifaceted, involving a combination of economic, social, political, and environmental factors. Here are some of the major causes:</p>
+
+    <h3>1. Economic Inequality</h3>
+    <p><strong>Wealth Distribution:</strong> In many societies, wealth is unevenly distributed. A small portion of the population controls most resources, while the majority remain in poverty.</p>
+    <p><strong>Unemployment and Underemployment:</strong> Jobs may be scarce, or existing jobs may not pay enough to cover basic living expenses.</p>
+
+    <h3>2. Lack of Education</h3>
+    <p><strong>Limited Access to Education:</strong> Education is a key factor in breaking the cycle of poverty. However, many poor regions lack access to quality education.</p>
+    <p><strong>Illiteracy and Skill Gaps:</strong> Without education, individuals may lack the skills required for well-paying jobs.</p>
+
+    <h3>3. Health Issues</h3>
+    <p><strong>Chronic Illness or Disability:</strong> Health problems can prevent people from working and drain family resources.</p>
+    <p><strong>Limited Access to Healthcare:</strong> Poor regions often lack affordable healthcare, exacerbating health problems and prolonging poverty.</p>
+
+    <h3>4. Political Instability and Conflict</h3>
+    <p><strong>War and Civil Unrest:</strong> Political instability can displace populations, destroy infrastructure, and disrupt economies, worsening poverty.</p>
+    <p><strong>Corruption and Poor Governance:</strong> Corruption can prevent fair resource distribution, limiting opportunities for the disadvantaged.</p>
+
+    <h3>5. Environmental Factors</h3>
+    <p><strong>Natural Disasters:</strong> Disasters like floods or earthquakes can destroy communities, making it harder for people to recover.</p>
+    <p><strong>Climate Change:</strong> Climate change affects agricultural production and creates food insecurity, particularly in rural areas.</p>
+  </section>
+
+  <h2>How You Can Help to Stop Poverty</h2>
+  <p>Many governments are helping to stop poverty, but you can also help by assisting the poor and needy in your local community or abroad. Encourage your family to donate money or organize a fundraising drive together with others.</p>
+
+  <section id="video">
+    <h2>Video About Poverty</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D9N7QaIOkG8?si=SvENY8aXT0lLekZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" onclick="scrollToTop()">Back to Top</button>
+
+  <script>
+    // Get the button
+    var mybutton = document.getElementById("scrollTopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    };
+
+    // When the user clicks on the button, scroll to the top of the document
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+  </script>
 
 </body>
-<p>
-<h2>What is poverty<h2>
-
-
-</p> Poverty means that a person doesn't make enough money from their job to meet their basic needs.
 </html>
-
-
-<h2>different types of poverty</h2>
-
-<p>
-<h2>
-There are six types of poverty, including absolute poverty, relative poverty, situational, generational poverty, urban poverty and rural poverty.
-
-<p>
-
-Poverty can be understood in different ways depending on the context and the criteria used. It is generally categorized into different types to reflect various aspects of deprivation. Below are the main types of poverty:
-
-<p>
-1. Absolute Poverty
-Definition: Absolute poverty refers to a condition where individuals or households cannot meet basic life-sustaining needs such as food, clean water, shelter, and healthcare. It is typically measured using a poverty line, often set by international organizations like the World Bank (e.g., $1.90 a day).
-Characteristics: Individuals living in absolute poverty experience severe deprivation of essential resources and struggle to survive.
-</p>
-<p>
-
-2. Relative Poverty
-Definition: Relative poverty refers to individuals or households whose income or resources are so much lower than the average that they are excluded from the minimum acceptable standard of living in society. It is measured in relation to others in the same society, rather than a fixed threshold.
-Characteristics: People in relative poverty may have their basic needs met but still experience social exclusion and inequality compared to others in their community.
-</p>
-<p>
-
-3. Situational Poverty
-Definition: Situational poverty occurs when an individual or group experiences poverty due to specific circumstances, such as a natural disaster, sudden job loss, illness, or other temporary crises.
-Characteristics: This type of poverty is often short-term, and people can escape it once the situation improves.</p>
-<p>
-4. Chronic Poverty
-Definition: Chronic poverty refers to a long-term or persistent state of poverty, often passed down through generations. Individuals in chronic poverty typically face multiple and ongoing barriers to overcoming their circumstances.
-Characteristics: Chronic poverty is often linked to systemic issues like limited access to education, healthcare, or stable employment opportunities.
-</p>
-<p>
-5. Urban Poverty
-Definition: Urban poverty occurs in city or metropolitan areas, where despite the availability of more infrastructure, a significant portion of the population lives in poverty, often in informal settlements or slums.
-Characteristics: Urban poverty is marked by overcrowding, inadequate housing, lack of sanitation, and limited access to public services despite the proximity to wealthier urban areas.
-</p>
-<p>
-6. Rural Poverty
-Definition: Rural poverty refers to poverty in rural or agricultural areas, where people often rely on farming or informal work. These areas tend to have fewer economic opportunities and limited access to services.
-Characteristics: Rural poverty is typically marked by inadequate infrastructure, low agricultural productivity, isolation from markets, and poor access to healthcare and education.
-</p>
-<p>
-7. Cultural Poverty
-Definition: Cultural poverty focuses on how social norms, values, and practices contribute to the perpetuation of poverty within specific communities. People in cultural poverty may face social exclusion, discrimination, or a lack of societal support.
-Characteristics: This form of poverty may be deeply tied to issues of ethnicity, race, or historical disadvantage, and is often difficult to overcome without changes in societal attitudes and opportunities.
-</p>
-<p>
-8. Generational Poverty
-Definition: Generational poverty refers to families that have been in poverty for multiple generations. This type of poverty is often passed down due to lack of education, limited job opportunities, and societal or systemic barriers.
-Characteristics: Families in generational poverty may face a cycle of hardship that is difficult to break without significant changes in education, employment, and access to resources.
-</p>
-<p>
-9. Multidimensional Poverty
-Definition: Multidimensional poverty recognizes that poverty is not just about income, but also involves other deprivations, such as lack of access to education, healthcare, clean water, sanitation, and decent living conditions.
-Characteristics: This type of poverty is measured using multiple indicators to capture a more comprehensive view of deprivation and well-being.
-</p>
-<p>
-10. Environmental Poverty
-Definition: Environmental poverty occurs when individuals or communities are poor because their natural environment is degraded or depleted, limiting their access to resources such as clean water, fertile land, or forests.
-Characteristics: This type of poverty is often tied to issues like climate change, deforestation, and pollution, which exacerbate the living conditions of those in vulnerable areas.
-</p>
-<p>
-11. Health Poverty
-Definition: Health poverty refers to individuals or communities whose poverty is exacerbated by poor health outcomes or lack of access to adequate healthcare.
-Characteristics: People in health poverty often suffer from preventable diseases, inadequate nutrition, and poor living conditions, making it harder to escape poverty.
-</p>
-<p>
-12. Working Poverty
-Definition: Working poverty refers to individuals who are employed but still live in poverty due to low wages, lack of benefits, or unstable employment.
-Characteristics: These individuals may have a job but earn too little to afford basic necessities like housing, food, or healthcare.
-Each type of poverty requires different strategies for intervention, and addressing the root causes of poverty often involves a combination of economic, social, and political efforts.
-</p>
-</h2>
-
-
-<h2>Causes of poverty</h2>
-<h2>
-The causes of poverty are complex and multifaceted, involving a combination of economic, social, political, and environmental factors. These causes can vary by country, region, and community, but some of the most common and fundamental causes of poverty include:
-
-<p>
-1. Economic Inequality
-Wealth Distribution: In many societies, wealth is unevenly distributed. A small portion of the population may control most of the resources, while the majority remain in poverty. This inequality makes it difficult for disadvantaged groups to access resources and opportunities.
-Unemployment and Underemployment: In many areas, jobs are scarce, and the ones that exist often do not pay enough to cover basic living expenses. Additionally, underemployment, where people work in jobs that do not fully utilize their skills or provide sufficient hours, can perpetuate poverty.
-</p>
-
-
-<p>
-2. Lack of Education
-Limited Access to Education: Education is one of the most effective ways to reduce poverty. However, in many poor regions, there are limited opportunities for quality education. Families in poverty may also face barriers like school fees, inadequate schools, or the need for children to work instead of attending school.
-Illiteracy and Skill Gaps: Without education or vocational training, individuals may lack the skills required to access well-paying jobs, thus remaining stuck in low-income, low-skill employment.
-</p>
-<p>
-3. Health Issues
-Chronic Illness or Disability: Health problems—whether physical or mental-can prevent individuals from working and earning a steady income. High medical expenses can also drain a family’s finances, pushing them deeper into poverty.
-Limited Access to Healthcare: In many impoverished areas, healthcare services are limited or unaffordable. Preventable diseases, poor sanitation, and malnutrition can lead to long-term health issues that contribute to the cycle of poverty.
-</p>
-<p>
-4. Political Instability and Conflict
-War and Civil Unrest: Political instability, civil wars, and armed conflict can displace large populations, destroy infrastructure, and disrupt economic systems, all of which exacerbate poverty. Refugees and displaced populations often face extreme poverty and struggle to rebuild their lives.
-Corruption and Poor Governance: Corruption in both government and business sectors can prevent equitable distribution of resources, ensuring that wealth and opportunities remain in the hands of the few. Poor governance also means inadequate public services such as healthcare, education, and infrastructure, which can trap people in poverty.
-</p>
-<p>
-5. Environmental Factors
-Natural Disasters: Events like earthquakes, floods, hurricanes, and droughts can devastate communities, destroy infrastructure, and displace people, making it difficult for affected populations to recover and leading to increased poverty.
-Climate Change: Climate change can negatively impact agricultural productivity, particularly in rural and developing areas. As crops fail, livelihoods are threatened, and food insecurity becomes more prevalent, further driving poverty.
-</p>
-6. Social Inequality
-Discrimination: Social factors such as race, ethnicity, gender, disability, and religion can all contribute to social exclusion. Marginalized groups may face barriers to education, employment, healthcare, and legal rights, which limits their ability to escape poverty.
-Cultural Norms: In some societies, cultural practices and norms may place certain groups at a disadvantage, particularly women and children. For example, women in many parts of the world face restricted access to education, employment, and land rights, keeping them in poverty.
-7. Debt and Financial Crises
-Personal Debt: Many people living in poverty face overwhelming debt due to factors such as medical expenses, loans, or predatory lending. High levels of personal debt can prevent people from accumulating savings or investing in opportunities to improve their situation.
-National Debt and Economic Crises: On a larger scale, countries with significant national debt may struggle to invest in infrastructure, education, or healthcare, further exacerbating poverty. Economic recessions, hyperinflation, or financial crises can also destabilize economies and push people into poverty.
-8. Lack of Access to Basic Resources
-Housing: Affordable housing is a critical issue for many people in poverty. Without stable, safe, and affordable housing, families may be forced into overcrowded or unsafe living conditions, which can further deteriorate their quality of life and limit opportunities for improvement.
-Food Insecurity: Lack of access to nutritious food is a major cause of poverty. People in poverty may struggle to afford enough food, leading to malnutrition and health problems, which can create a vicious cycle of poverty.
-9. Globalization and Economic Systems
-Global Market Shifts: Global economic systems and trade agreements can sometimes disadvantage poorer countries. For instance, if a country’s economy is heavily reliant on a specific industry (e.g., agriculture or mining), price fluctuations in global markets can lead to economic instability and increased poverty.
-Economic Exploitation: Multinational companies may exploit cheap labor in developing countries, leading to poor working conditions, low wages, and little job security. This dynamic keeps workers trapped in poverty while generating wealth for foreign corporations.
-10. Generational Poverty
-Cycle of Poverty: Poverty can be self-perpetuating. Children born into poverty may not have access to quality education, healthcare, or stable living conditions. They may grow up in environments where economic opportunities are limited and may eventually face the same struggles their parents faced, continuing the cycle.
-
-</h2>
